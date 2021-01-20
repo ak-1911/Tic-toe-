@@ -17,7 +17,58 @@ body{
   background-color: #ffffff;
   border-radius: 5px;
   box-shadow: 0 2px 5px 5px rgba(0,0,0,0.1);
-}
-h2{
   text-align: center;
+}
+ol{
+  text-align: initial;
+  list-style-type: none;
+}
+button{
+  margin-left: 10px;
+  border: none;
+  background: none;
+  outline: none;
+  border-radius: 50px;
+  border: 0.5px solid transparent;
+  background-color: violet;
+  color: white;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+button:hover{
+  background-color: green;
+}
+input{
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom:0.5px solid red;
+  outline: none;
+  transition: all 0.3s linear;
+}
+input:focus{
+  border-bottom: 0.5px solid cyan;
+}
+.elipse-btn{
+  width: 75px;
+  font-size: 16px;
+  border-radius: 15px;
+  background: lightblue;
+}
+.elipse-btn:hover{
+  background-color: red;
+}
+.clearOneItem{
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+.clearOneItem:hover{
+  background-color: red;
+}
+li{
+  margin-bottom: 10px;
 }
